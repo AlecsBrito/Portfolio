@@ -70,9 +70,11 @@ a {
     font-size: 2.5ch;
     text-align: right;
 
+    margin: 40% 0;
+    
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .sidemenu .social {

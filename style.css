@@ -95,3 +95,16 @@ a {
 
     grid-column: 2;
 }
+
+/* modules */
+.options *{
+    transition: 0.3s ease-in-out, transform 0.3s;
+}
+.options *:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out, transform 0.3s;
+}
+.options *:active{
+    transform: scale(1);
+    transition: 0.3s ease-in-out, transform 0.3s;
+}
